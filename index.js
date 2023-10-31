@@ -24,6 +24,22 @@ function generateRandomPara() {
   // dyanmically showing paragraphs
   data.innerHTML = html;
 }
+
+function generateRandomPara() {
+  let html = ``;
+  let randomNum = Math.floor(Math.random() * paragraphs.length);
+
+  let randomParagraph = paragraphs[randomNum];
+  console.log(randomParagraph.split(" "));
+
+  randomParagraph.split("").forEach((letter) => {
+    let span = `<span>${letter}</span>`;
+    html += span;
+  });
+  // dyanmically showing paragraphs
+  data.innerHTML = html;
+}
+
 generateRandomPara();
 
 let input = document.querySelector(".text-box");

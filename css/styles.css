@@ -54,6 +54,44 @@ body {
   margin-top: 1rem;
 }
 
+.text-box {
+  /* visibility: hidden; */
+  position: absolute;
+  left: -999rem;
+}
+
+.bottomOptionsDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+
+.tryAgain {
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  border: none;
+  background-color: rgba(101, 199, 238, 0.944);
+  border-radius: 0.3rem;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.tryAgain:active,
+.tryAgain:hover {
+  transform: scale(1.01);
+  background-color: rgba(91, 200, 243, 0.944);
+}
+
+.vLine {
+  /* width: 0.1rem; */
+  border-left: 1px solid grey;
+  height: 1.5rem;
+  background-color: grey;
+}
+
 .tryAgain {
   font-size: 1.4rem;
   color: #fff;
