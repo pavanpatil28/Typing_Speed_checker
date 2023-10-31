@@ -289,6 +289,65 @@ body {
   display: block;
 }
 
+.search-bar {
+  width: 400px;
+  height: 45px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 15px;
+  border: 2px solid orange;
+}
+
+.search-bar:focus {
+  outline: none;
+  border: 2px solid orange;
+}
+
+.search-result-text {
+  margin-top: 60px;
+}
+
+.search-result-text {
+  margin-bottom: 30px;
+}
+
+.recepie-video {
+  margin-top: 20px;
+}
+
+.recepie-video a {
+  font-weight: 800;
+  color: white;
+  font-size: 30px;
+}
+
+.recepie-video {
+  margin-top: 30px;
+}
+
+.title1 {
+  margin-bottom: 30px;
+}
+
+.no-meals {
+  font-weight: bold;
+  font-size: 30px;
+  color: orange;
+}
+
+#recepie-link {
+  background-color: orange;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.showThis {
+  display: block;
+}
+
 @media screen and (max-width: 500px) {
   .search-result {
     text-align: center;
